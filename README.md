@@ -8,8 +8,7 @@ Gradient descent is one of the most popular algorithms to perform optimization a
 
 # RMSprop : 
 
-RMSprop is an unpublished, adaptive learning rate method proposed by Geoff Hinton 
-Geoff Hinton suggests βt to be set to 0.9, while a good default value for the learning rate η is 0.001.
+RMSprop is an unpublished, adaptive learning rate method proposed by Geoff Hinton , he suggests βt to be set to 0.9, while a good default value for the learning rate η is 0.001.
 
 # RMSprop with optimal βt and learning rate η using newton's algorithm  :
 =>While Geof Hinton suggests βt to be set to 0.9 however in the experiments the constant
@@ -32,7 +31,7 @@ Adadelta is an extension of Adagrad that seeks to reduce its aggressive, monoton
  Adaptive Moment Estimation (Adam) is another method that computes adaptive learning rates for each parameter. In addition to storing an exponentially decaying average of past squared gradients vt like Adadelta and RMSprop, Adam also keeps an exponentially decaying average of past gradients mt, similar to momentum. Whereas momentum can be seen as a ball running down a slope, Adam behaves like a heavy ball with friction, which thus prefers flat minima in the error surface
 # Nesterov accelerated gradient :
 Momentum first computes the current gradient and then takes a big jump in the direction of the updated accumulated gradient , NAG first makes a big jump in the direction of the previous accumulated gradient , measures the gradient and then makes a correction , which results in the complete NAG update . This anticipatory update prevents us from going too fast and results in increased responsiveness, which has significantly increased the performance of RNNs on a number of tasks
-# SOON : 
+# TODO: 
 #Sadagrad :
 #AdaMax:
 #Nadam:
