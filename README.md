@@ -17,7 +17,7 @@ choice of βt leads sometimes to divergence of the sequence so I set 1 −1/t �
 =>For the learning rate I use newton's algorithm to pick the best learning rate to converge faster 
 
 # RMSprop with optimal learning rate η using Nonmonotone backtracking inexact method :
-  ![alt text](https://raw.githubusercontent.com/XHAL9000/DeepLearning-algorithms-octave/nonmonotone.png)
+  ![alt text](https://github.com/XHAL9000/DeepLearning-algorithms-octave/nonmonotone.PNG)
 
 # Adagrad:
 
