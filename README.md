@@ -1,6 +1,6 @@
 Author : ADAM EL BERGUI
 
-# DeepLearning-algorithms-octave
+# Optimization-algorithms-octave
 Implementation of deep learning optimization algorithms with octave
 
 # Gradient Descent : 
